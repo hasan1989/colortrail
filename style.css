@@ -1,0 +1,78 @@
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ width: 100vw;
+ height: 100vh;
+ overflow: hidden;
+}
+
+.squaire {
+    background-color: #3b3b3b;
+    height: 16px;
+    width: 16px;
+    margin: 1px;
+    transition: 5s ease;
+}
+
+.squaire:hover {
+    transition-duration: 0s;
+}
+
+
+
+/* 
+ALL BODY RED
+
+body {
+    background-color: aqua;
+} */
+
+
+
+/* DONE PROJECT */
+
+/* body {
+    background-color: aqua;
+    margin: 0;
+}
+
+#container {
+    width: 700px;
+    height: 700px;
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square {
+    background-color: black;
+    height: 7px;
+    width: 7px;
+}
+
+.nocolor {
+    background-color: black;
+} */

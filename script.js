@@ -1,6 +1,6 @@
 const container = document.getElementById('container');
 
-const SQUARES = 3000;
+const SQUARES = 3500;
 
 for(let i = 0; i < SQUARES; i++){
     const square = document.createElement('div');

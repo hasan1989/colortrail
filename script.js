@@ -7,11 +7,11 @@ for(let i = 0; i < SQUARES; i++){
     square.classList.add('squaire');
     container.appendChild(square);
 
-    square.addEventListener('mouseover', function(){
+    square.addEventListener('onclick', function(){
         addcolor(square);
     })
 
-    square.addEventListener('mouseout', function(){
+    square.addEventListener('onclick', function(){
         removecolor(square);
     })
 }
